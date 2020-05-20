@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Cores RGB</title>
+  </head>
+  <body>
+    <h1>Deslize para escolher sua cor com</h1>
+    <h1 class="r" style="color: red;">R</h1>
+    <h1 class="g" style="color: green;">G</h1>
+    <h1 class="b" style="color: blue;">B</h1>
+
+    <div class="sliders">
+      <div class="red container">
+        <h3>Red</h3>
+        <input type="range" id="red-slider" value="0" min="0" max="255" />
+        <h4 id="red-value">0</h4>
+      </div>
+
+      <div class="green container">
+        <h3>Green</h3>
+        <input type="range" id="green-slider" value="0" min="0" max="255" />
+        <h4 id="green-value">0</h4>
+      </div>
+
+      <div class="blue container">
+        <h3>Blue</h3>
+        <input type="range" id="blue-slider" value="0" min="0" max="255" />
+        <h4 id="blue-value">0</h4>
+      </div>
+    </div>
+
+    <div class="rgb-value container">
+      <div id="color-square"></div>
+      <p id="rgb-value"></p>
+    </div>
+
+    <footer>
+      <p>
+        Trabalho do desafio 1 para o IGTI
+      </p>
+      <p>
+        Feito por Rodrigo Teixeira de Andrade
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/RTAcps/">Rodrigo</a>
+      </p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
